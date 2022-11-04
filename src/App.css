@@ -1,0 +1,246 @@
+ .App {
+    text-align: center;
+    position: absolute;
+    width: 2195px;
+    height: 1221px;
+    left: 0px;
+    top: 75px;
+    mix-blend-mode: hard-light;
+    opacity: 0.35;
+}
+
+.App-logo {
+    height: 40vmin;
+    pointer-events: none;
+} 
+
+
+
+.App-header {
+    background-color: #0C1F5D;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+} 
+
+ .App-link {
+    color: #61dafb;
+} 
+*{
+    box-sizing: border-box;
+}
+
+body {
+
+   
+   position: center;
+width: 1440px;
+height: 1022px;
+background-image: url("./bg.svg"),linear-gradient(136.06deg, #9D4FB3 -12.44%, #102670 39.32%, #020C20 88.35%);   
+    background-repeat: no-repeat;
+    background-size: cover; 
+   
+   
+}
+header {
+    display: none;
+}
+.sign{
+    /* header signup */
+    position: absolute ;
+    left: 46.08%;
+    right: 42.01%;
+    top: 16.83%;
+    bottom: 90.28%;
+
+   
+
+font-family: 'Century Schoolbook';
+font-style: normal;
+font-weight: 700;
+font-size: 23px;
+line-height: 111%;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.04em;
+
+color: #FFFFFF;
+
+
+
+}
+
+.box {
+    /* border */
+    background:linear-gradient(180deg, #0C1F5D 0%, #202A77 100%);
+    mix-blend-mode: normal;
+border: 4px solid #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 30px;
+    margin: auto auto;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+
+.box h3 {
+    /* already sign */
+     /* position: center;
+    left: 18.81%;
+    right: 18.81%;
+    top: 90.13%;
+    bottom: 8.58%; */
+   
+    padding: 8px; 
+font-family: 'Century Schoolbook';
+font-style: italic;
+font-weight: 700;
+font-size: 25px;
+line-height: 111%;
+display: flex;
+align-items: center;
+text-align: center; 
+color: #fff;
+}
+
+
+.box .inputBox label {
+/* email name password */
+font-family: 'Century Schoolbook';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 111%;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.04em;
+
+color: #CBE9FF;
+
+}
+/* .box .inputBox label1 {
+    
+
+position: absolute;
+left: 13.14%;
+right: 71.4%;
+top: 7.84%;
+bottom: 87.28%;
+
+font-family: 'Century Schoolbook';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 111%;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.04em;
+
+color: #CBE9FF;
+   
+    
+    }
+
+.box .inputBox label2 {
+  
+position: absolute;
+left: 12.97%;
+right: 68.56%;
+top: 26.92%;
+bottom: 61.24%;
+
+font-family: 'Century Schoolbook';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 111%;
+
+display: flex;
+align-items: center;
+letter-spacing: -0.04em;
+
+color: #CBE9FF;
+    
+    }
+    .box .inputBox label3 {
+    
+
+position: absolute;
+left: 12.97%;
+right: 56.48%;
+top: 47.04%;
+bottom: 47.04%;
+
+font-family: 'Century Schoolbook';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 111%;
+display: flex;
+align-items: center;
+letter-spacing: -0.04em;
+
+color: #CBE9FF;
+        
+        } */
+
+.box .inputBox input {
+    /* underboxforemail */
+   background:linear-gradient(180deg, #0C1F5D 0%, #202A77 100%);
+    border: 3px #0C1F5D;
+   border-bottom: 5px solid #CBE9FF; 
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+    outline: none;
+    padding: 10px 0;
+    width: 100%;
+}
+
+
+.box input[type="submit"], .box button[type="submit"], a.button {
+    font-family: 'Century Schoolbook';
+   /* padding done */
+    margin: auto;
+    padding: 15px;
+    
+
+font-weight: 700;
+font-size: 29px;
+align-items: center;
+display: flex;
+color: #fff;
+    background: #111C56;
+mix-blend-mode: normal;
+border: 4px solid #CBE9FF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 30px;
+
+    
+}
+
+.box input[type="submit"]:hover, .box button[type="submit"]:hover, a.button:hover {
+    opacity: 0.8;
+
+
+}
+
+ #tsparticles {
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}  

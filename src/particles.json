@@ -1,0 +1,22 @@
+{
+  "particles": {
+    "number": {
+      "value": 50
+    },
+    "color": {
+      "value": [
+        "#0C1F5D"
+
+      ]
+    },
+    "size": {
+      "value": 1000,
+      "random": {
+        "enable": true,
+        "minimumValue": 200
+      }
+    }
+
+  }
+
+ }
