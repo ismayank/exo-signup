@@ -4,10 +4,7 @@ import {}from "react-router";
 
 function App() {
     return (
-        <>
-        <div className="signup-page">
-            
-        </div>
+        <div className="main">
         <div className="sign">
         <h1>Signup</h1>
     </div><div>
@@ -37,7 +34,7 @@ function App() {
                 </form>
 
             </main>
-        </div></>
+        </div></div>
     );
 }
 

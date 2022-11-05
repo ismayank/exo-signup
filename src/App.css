@@ -38,11 +38,14 @@ body {
 
    
    position: center;
-width: 1440px;
-height: 1022px;
+   background-size:100%;
+
+width: 100%;
+height: 100%;
+background-attachment: fixed;
 background-image: url("./bg.svg"),linear-gradient(136.06deg, #9D4FB3 -12.44%, #102670 39.32%, #020C20 88.35%);   
-    background-repeat: no-repeat;
-    background-size: cover; 
+    /* background-repeat: no-repeat;
+    background-size: cover;  */
    
    
 }
@@ -51,32 +54,32 @@ header {
 }
 .sign{
     /* header signup */
-    position: absolute ;
-    left: 46.08%;
-    right: 42.01%;
-    top: 16.83%;
-    bottom: 90.28%;
-
-   
-
+    width: 100%;
+    position: absolute;
 font-family: 'Century Schoolbook';
 font-style: normal;
 font-weight: 700;
 font-size: 23px;
 line-height: 111%;
-display: flex;
+display: block;
 align-items: center;
 text-align: center;
-letter-spacing: -0.04em;
-
 color: #FFFFFF;
+min-height: 10%;
 
+}
 
-
+h1{
+    width: 30%;
+    margin-left: 35%;
+    margin-top: 4.5%;
+    text-align: center;
+    min-height: 30%;
 }
 
 .box {
     /* border */
+    display: block;
     background:linear-gradient(180deg, #0C1F5D 0%, #202A77 100%);
     mix-blend-mode: normal;
 border: 4px solid #FFFFFF;
@@ -88,6 +91,8 @@ border-radius: 30px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    max-height: 70%;
+    min-height: 60%;
 
 }
 
@@ -197,14 +202,17 @@ color: #CBE9FF;
 
 .box .inputBox input {
     /* underboxforemail */
-   background:linear-gradient(180deg, #0C1F5D 0%, #202A77 100%);
-    border: 3px #0C1F5D;
+   /* background:linear-gradient(180deg, #0C1F5D 0%, #202A77 100%); */
+   background: transparent;
+    color: #FFF;
+   border: 3px #0C1F5D;
    border-bottom: 5px solid #CBE9FF; 
     letter-spacing: 1px;
     margin-bottom: 25px;
     outline: none;
     padding: 10px 0;
     width: 100%;
+    
 }
 
 
